@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  padding-top: 90px;
+}
+
+#menu-atas {
+  background: #2c3e50;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+#menu-atas a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 0 10px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: 0.9s ease;
+}
+
+#menu-atas a:hover {
+  background-color: gray;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+#konten-utama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#box {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+#menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 20px;
+}
+
+.menu-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 240px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.menu-item p {
+  font-size: 14px;
+}
+
+#form-pesan {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 12px;
+}
+
+#form-pesan input,
+#form-pesan button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+
+
